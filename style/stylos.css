@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.barraprincipal{
+    background: #3669a7;
+    width: 100%;
+    height: 60px;
+}
+
+
+
+.menu .nav{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 550px;
+}
+
+.menu{
+    display: flex;
+}
+
+.logo{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+
+.name{
+    padding-top: 24px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.menu .nav li{
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.menu .nav li:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.background{
+    width: 100%;
+    height: 597px;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    color: #000000;
+}
+
+h1{
+    font-size: 100px;
+    color: #3669a7;
+    font-family: 'Times New Roman', Times, serif;
+    transition: transform 1s;
+    border-bottom: 2px solid #3669a7;
+}
+
+h1:hover{
+    transform: scale(1.07);
+}
+
+h2{
+    padding-top: 20px;
+    color: #000000;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo{
+    width: 520px;
+    padding-bottom: 10px;
+}
+
+.perfil{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('../img/milleredit.png');
+    position: relative;
+    overflow: hidden;
+}
+
+.perfil:hover::after{
+    transform: translateY(0);
+}
+
+.perfil::after{
+    content: "You can do anything you set your mind to, man";
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: #3669a767;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.btn{
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 1em;
+    background-color: #3669a7;
+    color: rgb(255, 255, 255);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: shaking 5s infinite;
+    cursor: pointer;
+}
+
+@keyframes shaking{
+
+
+    20%{
+        transform: scale(1.05)rotate(-5deg);
+    }
+
+    30%{
+        transform: scale(1.05)rotate(5deg);
+    }
+
+    40%{
+        transform: none;
+    }
+}
+
+
+.containerleft{
+    margin-left: 150px;
+    width: 400px;
+    height: 430px;
+    padding-top: 80px;
+}
+
+.containerright{
+    padding-top: 60px;
+    margin-left: 220px;
+}
+
+
+
+.logotipos img{
+    width: 40px;
+    height: 70px;
+    margin-left: 2px;
+    transition: transform .5s;
+}
+
+.logotipos img:hover{
+    transform: rotate(360deg);
+}
