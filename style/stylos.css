@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
 *{
     margin: 0%;
     padding: 0%;
 }
+
+
 
 .barraprincipal{
     background: #3669a7;
@@ -16,9 +21,9 @@
     padding: 20px;
     list-style: none;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    margin-left: 550px;
+    margin-left: 500px;
 }
 
 .menu{
@@ -34,9 +39,9 @@
 }
 
 .name{
-    padding-top: 24px;
+    padding-top: 19px;
     margin-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: bold;
 }
@@ -45,6 +50,7 @@
     margin-left: 20px;
     cursor: pointer;
     color: white;
+    
 }
 
 .menu .nav li:hover{
@@ -54,8 +60,10 @@
 
 .background{
     width: 100%;
-    height: 597px;
-    background-color: #ffffff;
+    height: 589px;
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #0059a72d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container{
@@ -65,9 +73,10 @@
 }
 
 h1{
-    font-size: 100px;
-    color: #3669a7;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 110px;
+    color: #1a5397;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
     transition: transform 1s;
     border-bottom: 2px solid #3669a7;
 }
@@ -98,7 +107,7 @@ p{
     height: 450px;
     border-radius: 50%;
     background-size: cover;
-    background-image: url('../img/milleredit.png');
+    background-image: url('../img/eminem1211.jpg');
     position: relative;
     overflow: hidden;
 }
@@ -160,15 +169,20 @@ a{
 
 
 .containerleft{
-    margin-left: 150px;
+    margin-left: 127px;
     width: 400px;
     height: 430px;
-    padding-top: 80px;
+    padding-top: 60px;
+}
+
+#color-txt{
+    color: #005AA7;
+    font-weight: 800;
 }
 
 .containerright{
     padding-top: 60px;
-    margin-left: 220px;
+    margin-left: 275px;
 }
 
 
